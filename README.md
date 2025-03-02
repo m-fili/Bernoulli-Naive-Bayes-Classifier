@@ -13,15 +13,15 @@ $P(y|x_1, x_2, ..., x_n) = \frac{P(y) \prod_{i=1}^{n} P(x_i|y)}{P(x_1, x_2, ...,
 
 Applying the total probability rule, we can express the denominator $P(x_1, x_2, ..., x_n)$ as:
 
-$ P(x_1, x_2, ..., x_n) = \sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y) $
+$P(x_1, x_2, ..., x_n) = \sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y)$
 
 which leads to the following equation:
 
-$ P(y|x_1, x_2, ..., x_n) = \frac{P(y) \prod_{i=1}^{n} P(x_i|y)}{\sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y)} $
+$P(y|x_1, x_2, ..., x_n) = \frac{P(y) \prod_{i=1}^{n} P(x_i|y)}{\sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y)}$
 
 Log probability can be computed as:
 
-$ \log P(y|x_1, x_2, ..., x_n) = \log P(y) + \sum_{i=1}^{n} \log P(x_i|y) - \log \sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y) $
+$\log P(y|x_1, x_2, ..., x_n) = \log P(y) + \sum_{i=1}^{n} \log P(x_i|y) - \log \sum_{y} P(y) \prod_{i=1}^{n} P(x_i|y)$
 
 
 
