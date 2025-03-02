@@ -9,7 +9,7 @@ The Bernoulli Naive Bayes Classifier is a probabilistic machine learning model t
 
 The Bernoulli Naive Bayes Classifier is based on Bayes' theorem, which is formulated as:
 
-$ P(y|x_1, x_2, ..., x_n) = \frac{P(y) \prod_{i=1}^{n} P(x_i|y)}{P(x_1, x_2, ..., x_n)} $
+$P(y|x_1, x_2, ..., x_n) = \frac{P(y) \prod_{i=1}^{n} P(x_i|y)}{P(x_1, x_2, ..., x_n)}$
 
 Applying the total probability rule, we can express the denominator $P(x_1, x_2, ..., x_n)$ as:
 
